@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="all.min.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <button class="start">Start Quiz</button>
+    
+    <section class="rules">
+        <h2>Some Rules of this quiz</h2>
+        <hr>
+        <ol>
+            <li>you will have only 15 secondsper each question</li>
+            <li>Once you can select your answer , you can't reselect</li>
+            <li>You can select option once time goes off</li>
+            <li>you can't exit from the Quiz while you're playing</li>
+            <li>you'll get points on the basis of your correct</li>
+        </ol>
+        <hr class="half-hr">
+        <div class="btns">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </section>
+
+    <section class="quetions">
+        <header>
+            <h2>Awesome Quiz Application</h2>
+            <button class="timer">Timer Left <span>00</span></button>
+            <span class="line"></span>
+        </header>
+        <div class="quetion">
+            <h1>1.What does the HTML stand for ?</h1>
+            <ul>
+                <li>Hyper Text Preprocessor <i class="fa-solid fa-circle-xmark"></i></li>
+                <li>Hyper Text Markup Language</li>
+                <li>Hyper Text Multiple Language</li>
+                <li>Hyper Tool Multi Language</li>
+            </ul>
+        </div>
+        <footer>
+            <p><span class="number">1</span> of <span>5</span> questions</p>
+            <button class="next">Next quetion</button>
+        </footer>
+    </section>
+
+    <section class="result">
+        <i class="fa-solid fa-crown"></i>
+        <div>
+            <h2>you've completed the Quiz</h2>
+            <p>and nice , you got <span class="degree">2</span> out of <span>5</span></p>
+        </div>
+        <div>
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </section>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+
+<!-- <i class="fa-solid fa-circle-xmark"></i> -->
+<!-- <i class="fa-solid fa-circle-check"></i> -->
